@@ -19,17 +19,52 @@
       if (operator == "+") {
         result = number1 + number2;
         window.alert(" Result is " + result);
+        document.write(
+          "You added " +
+            number1 +
+            " and " +
+            number2 +
+            "\n" +
+            "your result is " +
+            result
+        );
       } else if (operator == "-") {
         result = number1 - number2;
         window.alert(" Result is " + result);
+        document.write(
+          "You subtracted " +
+            number2 +
+            " from " +
+            number1 +
+            " and your result is " +
+            result
+        );
       } else if (operator == "*") {
         result = number1 * number2;
         window.alert(" Result is " + result);
+        document.write(
+          "You multiplied " +
+            number1 +
+            " by " +
+            number2 +
+            " and your result is " +
+            result
+        );
       } else if (operator == "/") {
         result = number1 / number2;
         window.alert(" Result is " + result);
+
+        document.write(
+          "You divided " +
+            number1 +
+            " by " +
+            number2 +
+            " and your result is " +
+            result
+        );
       } else {
         window.alert("Not a Valid Input");
+        document.write("You didn't enter a valid input");
       }
     </script>
   </body>
